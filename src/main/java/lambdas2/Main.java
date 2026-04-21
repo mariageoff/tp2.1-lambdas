@@ -1,4 +1,4 @@
-package main;
+package main.java.lambdas2;
 
 public class Main {
     public static void main(String[] args) {
