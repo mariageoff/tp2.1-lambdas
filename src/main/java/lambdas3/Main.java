@@ -9,14 +9,15 @@ public class Main {
 
         List<Persona> listaPersonas = Arrays.asList(
                 new Persona("Enzo", "Perez"),
-                new Persona("Edy", "Gomez"),
+                new Persona("Edgar", "Gomez"),
                 new Persona("Ana", "Duarte"),
                 new Persona("Esteban", "Quito")
         );
 
         List<Persona> nombresConE = Personas.nombresQueEmpiezanConE(listaPersonas);
-
         List<Persona> nombresLetrasPar = Personas.nombresCuyaCantidadDeLetrasEsPar(listaPersonas);
 
+        System.out.println("Empiezan con E: " + nombresConE);
+        System.out.println("Letras par: " + nombresLetrasPar);
     }
 }

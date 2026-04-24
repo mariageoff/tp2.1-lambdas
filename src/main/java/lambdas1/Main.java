@@ -22,6 +22,6 @@ public class Main {
         a.unMetodo((Long variable) -> {
             System.out.println("abcd");
             return 10L;
-        }); // E
+        });
     }
 }
