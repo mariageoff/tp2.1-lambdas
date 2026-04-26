@@ -17,7 +17,13 @@ public class Main {
         List<Persona> nombresConE = Personas.nombresQueEmpiezanConE(listaPersonas);
         List<Persona> nombresLetrasPar = Personas.nombresCuyaCantidadDeLetrasEsPar(listaPersonas);
 
+        List<Persona> nombresConESinSream = Personas.nombresQueEmpiezanConESinStream(listaPersonas);
+        List<Persona> nombresLetrasParSinSream = Personas.nombresCuyaCantidadDeLetrasEsParSinStream(listaPersonas);
+
         System.out.println("Empiezan con E: " + nombresConE);
         System.out.println("Letras par: " + nombresLetrasPar);
+
+        System.out.println("Empiezan con E (SS): " + nombresConESinSream);
+        System.out.println("Letras par (SS): " + nombresLetrasParSinSream);
     }
 }

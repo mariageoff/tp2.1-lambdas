@@ -15,7 +15,7 @@ public class Usuarios {
             PreparedStatement ps = conn.prepareStatement(sql)) {
             conn.setAutoCommit(false);
             try {
-                preparador.preparar(ps); // Delegamos el seteo de datos a la Lambda
+                preparador.preparar(ps); // delego el seteo de datos a la Lambda
                 ps.executeUpdate();
                 conn.commit();
             } catch (SQLException e) {
